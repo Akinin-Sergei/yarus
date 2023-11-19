@@ -4411,5 +4411,37 @@ label:hover{
 .error__link-contact:hover{
     color: var(--hover);
 }
+/* ================================================================= */
 
+
+
+
+
+/* =====SITEMAP===== */
+.sitemap{
+    margin-top: 48px;
+    margin-bottom: 88px;
+}
+
+.sitemap__page-list+.sitemap__page-list{
+    margin-top: 48px;
+}
+
+.sitemap__page-item-title{
+    margin-bottom: 16px;
+}
+
+.sitemap__page-item{
+    margin-left: 16px;
+    margin-bottom: 8px;
+}
+
+.sitemap__page-link{
+    color: var(--black);
+    transition: all .7s ease;
+}
+
+.sitemap__page-link:hover{
+    color: var(--hover);
+}
 
