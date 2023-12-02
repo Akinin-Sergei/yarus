@@ -1,0 +1,745 @@
+/*Анимация снизу вверх*/
+.title{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.title._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.services__title{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.services__title._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.services__item{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.services__item._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.hero__text{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.hero__text._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.team-excerpt-quote-text{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.team-excerpt-quote-text._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.work__list-item{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.work__list-item._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.process__work-item{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.process__work-item._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.accordion__item{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.accordion__item._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.process__work-item{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.process__work-item._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.advantages__menu-tabs{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.advantages__menu-tabs._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.hero__text{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.hero__text._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.separator__title{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.separator__title._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.separator__text{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.separator__text._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.stages__work-item{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.stages__work-item._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.case__separator-text{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.case__separator-text._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.review__text{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.review__text._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.separator__about-title{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.separator__about-title._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.blog-resultat{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.blog-resultat._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.contacts__list-item{
+    transform: translate(0, 30%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.contacts__list-item._active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+
+
+
+/*Анимация снизу вверх и по Scale*/
+.last__progect{
+    transform: translate(0, 30%) scale(0.9);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.last__progect._active {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+}
+
+
+.teams-slider .swiper-wrapper .swiper-slide a picture img{
+    transform: translate(0, 10%) scale(0.95);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.teams-slider .swiper-wrapper .swiper-slide a picture._active img{
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+}
+
+
+.case-smal picture img{
+    transform: translate(0, 10%) scale(0.95);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.case-smal picture._active img{
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+}
+
+
+.case-big picture img{
+    transform: translate(0, 10%) scale(0.95);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.case-big picture._active img{
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+}
+
+
+
+
+
+/*Анимация по прозрачности*/
+.text__hero {
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.text__hero._active {
+    opacity: 1;
+}
+
+
+.hero__img{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.hero__img._active {
+    opacity: 1;
+}
+
+
+.block__title{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.block__title._active {
+    opacity: 1;
+}
+
+
+.about__text{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.about__text._active {
+    opacity: 1;
+}
+
+
+.section__about-gallery picture{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.section__about-gallery picture._active {
+    opacity: 1;
+}
+
+
+.сalculator__text{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.сalculator__text._active {
+    opacity: 1;
+}
+
+
+.feedback__text{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.feedback__text._active {
+    opacity: 1;
+}
+
+
+.feedback__form{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.feedback__form._active {
+    opacity: 1;
+}
+
+
+.сalculator__form{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.сalculator__form._active {
+    opacity: 1;
+}
+
+
+.team__neme{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.team__neme._active {
+    opacity: 1;
+}
+
+
+.team__post{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.team__post._active {
+    opacity: 1;
+}
+
+
+.awards-slide{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.awards-slide._active {
+    opacity: 1;
+}
+
+
+.breadcrumbs{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.breadcrumbs._active {
+    opacity: 1;
+}
+
+
+.hero__block-video{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.hero__block-video._active {
+    opacity: 1;
+}
+
+
+.hero__service-price{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.hero__service-price._active {
+    opacity: 1;
+}
+
+
+.hero__service{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.hero__service._active {
+    opacity: 1;
+}
+
+
+.application__service-btn{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.application__service-btn._active {
+    opacity: 1;
+}
+
+
+.stock__btn{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.stock__btn._active {
+    opacity: 1;
+}
+
+
+.hero__service-img{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.hero__service-img._active{
+    opacity: 1;
+}
+
+
+.attention-detail__slider{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.attention-detail__slider._active{
+    opacity: 1;
+}
+
+
+.advantages__item{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.advantages__item._active{
+    opacity: 1;
+}
+
+
+.hero__block-left_bottom{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.hero__block-left_bottom._active{
+    opacity: 1;
+}
+
+
+.hero__slider{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.hero__slider._active{
+    opacity: 1;
+}
+
+
+.button.application__btn{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.button.application__btn._active{
+    opacity: 1;
+}
+
+
+.stock__сalc-input-price{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.stock__сalc-input-price._active{
+    opacity: 1;
+}
+
+
+.stock__сalc-input-pricefin{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.stock__сalc-input-pricefin._active{
+    opacity: 1;
+}
+
+
+.select-filter{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.select-filter._active{
+    opacity: 1;
+}
+
+
+.filter__remove{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.filter__remove._active{
+    opacity: 1;
+}
+
+
+.case__specifications-item{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.case__specifications-item._active{
+    opacity: 1;
+}
+
+
+.case__description-title{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.case__description-title._active{
+    opacity: 1;
+}
+
+
+.case__description-text{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.case__description-text._active{
+    opacity: 1;
+}
+
+
+.section__visualization{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.section__visualization._active{
+    opacity: 1;
+}
+
+
+.more-slider .swiper-wrapper .swiper-slide{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.more-slider .swiper-wrapper .swiper-slide._active{
+    opacity: 1;
+}
+
+
+.statistics-item{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.statistics-item._active{
+    opacity: 1;
+}
+
+
+.block__left-work-map{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.block__left-work-map._active{
+    opacity: 1;
+}
+
+
+.world_maps{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.world_maps._active{
+    opacity: 1;
+}
+
+
+.filter-blog .select-filter-blog~.new-select{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.filter-blog._active .select-filter-blog~.new-select{
+    opacity: 1;
+}
+
+
+.map{
+    opacity: 0;
+    transition: all, .7s ease;
+}
+
+.map._active{
+    opacity: 1;
+}
+
+
+
+
+
+/*Анимация по Scale*/
+.portfolio__progect {
+    transform: scale(0.95);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.portfolio__progect._active {
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+.video__presentation {
+    transform: scale(0.95);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.video__presentation._active {
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+.team-excerpt-img-block{
+    transform: scale(0.95);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.team-excerpt-img-block._active {
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+.blog__link{
+    transform: scale(0.95);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.blog__link._active {
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+
+
+
+/*Анимация линии в блоке УСЛУГИ*/
+.services__block:not(:last-child)::after {
+    width: 0%;
+    transition: all 1.5s ease;
+}
+
+.services__block:not(:last-child)._active::after {
+    width: 100%;
+}
+
+
+
+
+
+/*Анимация слева направо*/
+.сomp_works-textdsf {
+    transform: translateX(-20%);
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.сomp_works-textsdf._active {
+    transform: translateX(0);
+    opacity: 1;
+}
